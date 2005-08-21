@@ -1,0 +1,19 @@
+material Bricks_Bricks_1
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.5 0.5 0.5
+            diffuse 0.9 0.9 0.9
+            specular 0.9 0.9 0.9 0.0
+            emissive 0.0 0.0 0.0
+            texture_unit
+            {
+                texture Brkrun.JPG 
+                filtering point point point
+                scale 0.5 0.5                
+            }
+        }
+    }
+}

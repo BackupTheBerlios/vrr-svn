@@ -1,0 +1,148 @@
+11:00:38: Creating resource group General
+11:00:38: Registering ResourceManager for type Material
+11:00:38: Registering ResourceManager for type Mesh
+11:00:38: Registering ResourceManager for type Skeleton
+11:00:38: Loading library OgrePlatform.dll
+11:00:38: OverlayElementFactory for type Panel registered.
+11:00:38: OverlayElementFactory for type BorderPanel registered.
+11:00:38: OverlayElementFactory for type TextArea registered.
+11:00:38: Registering ResourceManager for type Font
+11:00:38: ArchiveFactory for archive type FileSystem registered.
+11:00:38: ArchiveFactory for archive type Zip registered.
+11:00:38: DevIL version: Developer's Image Library (DevIL) 1.6.5
+11:00:38: DevIL image formats: bmp dib cut dcx dds gif ico cur jpg jpe jpeg lif mdl mng jng pcx pic pix png pbm pgm pnm ppm psd pdd psp pxr sgi bw rgb rgba tga vda icb vst tif tiff wal xpm raw 
+11:00:38: Registering ResourceManager for type HighLevelGpuProgram
+11:00:38: Loading library .\RenderSystem_Direct3D7
+11:00:38: Direct3D7 Rendering Subsystem created.
+11:00:38: ----- DirectDraw Detection Starts
+11:00:39: Detected DirectDraw driver Driver de vídeo primário
+11:00:39: Detected DirectDraw driver ATI RADEON 9600 Series 
+11:00:39: ----- DirectDraw Detection Ends
+11:00:39: Loading library .\RenderSystem_Direct3D9
+11:00:39: D3D9 : Direct3D9 Rendering SubSystem created.
+11:00:39: D3D9: Driver Detection Starts
+11:00:39: D3D9: Driver Detection Ends
+11:00:39: Loading library .\RenderSystem_GL
+11:00:39: OpenGL Rendering Subsystem created.
+11:00:39: Loading library .\Plugin_ParticleFX
+11:00:39: Particle Emitter Type 'Point' registered
+11:00:39: Particle Emitter Type 'Box' registered
+11:00:39: Particle Emitter Type 'Ellipsoid' registered
+11:00:39: Particle Emitter Type 'Cylinder' registered
+11:00:39: Particle Emitter Type 'Ring' registered
+11:00:39: Particle Emitter Type 'HollowEllipsoid' registered
+11:00:39: Particle Affector Type 'LinearForce' registered
+11:00:39: Particle Affector Type 'ColourFader' registered
+11:00:39: Particle Affector Type 'ColourFader2' registered
+11:00:39: Particle Affector Type 'ColourImage' registered
+11:00:39: Particle Affector Type 'ColourInterpolator' registered
+11:00:39: Particle Affector Type 'Scaler' registered
+11:00:39: Particle Affector Type 'Rotator' registered
+11:00:39: Loading library .\Plugin_BSPSceneManager
+11:00:39: Registering ResourceManager for type BspLevel
+11:00:39: Loading library .\Plugin_OctreeSceneManager
+11:00:39: TerrainSceneManager: Registered a new PageSource for type Heightmap
+11:00:39: Loading library .\Plugin_CgProgramManager
+11:00:39: *-*-* OGRE Initialising
+11:00:39: *-*-* Version 1.0.0 (Azathoth)
+11:00:39: Creating resource group Bootstrap
+11:00:39: Added resource location 'D:/PROG/ogrenew/Samples/Media/packs/OgreCore.zip' of type 'Zip' to resource group 'Bootstrap'
+11:00:39: Added resource location '../media' of type 'FileSystem' to resource group 'General'
+11:00:39: D3D9 : RenderSystem Option: Anti aliasing = None
+11:00:39: D3D9 : RenderSystem Option: Floating-point mode = Fastest
+11:00:39: D3D9 : RenderSystem Option: Full Screen = Yes
+11:00:39: D3D9 : RenderSystem Option: Rendering Device = ATI RADEON 9600 Series
+11:00:39: D3D9 : RenderSystem Option: VSync = No
+11:00:39: D3D9 : RenderSystem Option: Video Mode = 800 x 600 @ 32-bit colour
+11:00:52: D3D9 : RenderSystem Option: Full Screen = No
+11:00:53: D3D9 : Subsystem Initialising
+11:00:53: D3D9RenderSystem::createRenderWindow "OGRE Render Window", 800x600 windowed  miscParams: FSAA=0 FSAAQuality=0 colourDepth=32 
+11:00:53: D3D9 : Created D3D9 Rendering Window 'OGRE Render Window' : 800x600, 32bpp
+11:00:53: Registering ResourceManager for type Texture
+11:00:53: Registering ResourceManager for type GpuProgram
+11:00:53: RenderSystem capabilities
+11:00:53: -------------------------
+11:00:53:  * Hardware generation of mipmaps: yes
+11:00:53:  * Texture blending: yes
+11:00:53:  * Anisotropic texture filtering: yes
+11:00:53:  * Dot product texture operation: yes
+11:00:53:  * Cube mapping: yes
+11:00:53:  * Hardware stencil buffer: yes
+11:00:53:    - Stencil depth: 8
+11:00:53:    - Two sided stencil support: yes
+11:00:53:    - Wrap stencil values: yes
+11:00:53:  * Hardware vertex / index buffers: yes
+11:00:53:  * Vertex programs: yes
+11:00:53:    - Max vertex program version: vs_2_0
+11:00:53:  * Fragment programs: yes
+11:00:53:    - Max fragment program version: ps_2_0
+11:00:53:  * Texture Compression: yes
+11:00:53:    - DXT: yes
+11:00:53:    - VTC: no
+11:00:53:  * Scissor Rectangle: yes
+11:00:53:  * Hardware Occlusion Query: yes
+11:00:53:  * User clip planes: yes
+11:00:53:  * VET_UBYTE4 vertex element type: yes
+11:00:53:  * Infinite far plane projection: yes
+11:00:53:  * Hardware render-to-texture: yes
+11:00:53:  * Floating point textures: no
+11:00:53:  * Non-power-of-two textures: yes
+11:00:53:  * Volume textures: yes
+11:00:53: ***************************************
+11:00:53: *** D3D9 : Subsystem Initialised OK ***
+11:00:53: ***************************************
+11:00:53: ResourceBackgroundQueue - threading disabled
+11:00:53: Particle Renderer Type 'billboard' registered
+11:00:53: Creating viewport on target 'OGRE Render Window', rendering from camera 'PlayerCam', relative dimensions L: 0.00 T: 0.00 W: 1.00 H: 1.00 ZOrder: 0
+11:00:53: Viewport for camera 'PlayerCam', actual dimensions L: 0 T: 0 W: 800 H: 600
+11:00:53: Parsing scripts for resource group Bootstrap
+11:00:53: Parsing script OgreCore.material
+11:00:53: Parsing script OgreProfiler.material
+11:00:53: Parsing script Ogre.fontdef
+11:00:53: Parsing script OgreDebugPanel.overlay
+11:00:53: Texture: New_Ogre_Border_Center.png: Loading 1 faces(PF_A8B8G8R8,256x128x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,256x128x1.
+11:00:53: Texture: New_Ogre_Border.png: Loading 1 faces(PF_A8B8G8R8,256x256x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,256x256x1.
+11:00:53: Texture: New_Ogre_Border_Break.png: Loading 1 faces(PF_A8B8G8R8,32x32x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,32x32x1.
+11:00:53: Font TrebuchetMSBoldusing texture size 512x512
+11:00:53: Info: Freetype returned null for character 160 in font TrebuchetMSBold
+11:00:53: Texture: TrebuchetMSBoldTexture: Loading 1 faces(PF_BYTE_LA,512x512x1) with 0 generated mipmaps from Image. Internal format is PF_BYTE_LA,512x512x1.
+11:00:53: Texture: New_Ogre_Logo.png: Loading 1 faces(PF_A8B8G8R8,256x128x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,256x128x1.
+11:00:53: Parsing script OgreLoadingPanel.overlay
+11:00:53: Finished parsing scripts for resource group Bootstrap
+11:00:53: Parsing scripts for resource group General
+11:00:53: Parsing script reta001.material
+11:00:53: Parsing script reta002.material
+11:00:53: Parsing script terra.material
+11:00:53: Finished parsing scripts for resource group General
+11:00:53: Texture: RustySteel.jpg: Loading 1 faces(PF_B8G8R8,256x256x1) with 5 generated mipmaps from Image. Internal format is PF_X8R8G8B8,256x256x1.
+11:00:53: Win32Input8: DirectInput Activation Starts
+11:00:54: Win32Input8: Establishing keyboard input.
+11:00:54: Win32Input8: Keyboard input established.
+11:00:54: Win32Input8: Initializing mouse input in immediate mode.
+11:00:54: Win32Input8: Mouse input in immediate mode initialized.
+11:00:54: Win32Input8: DirectInput OK.
+11:00:54: Texture: spot_shadow_fade.png: Loading 1 faces(PF_B8G8R8,128x128x1) with 5 generated mipmaps from Image. Internal format is PF_X8R8G8B8,128x128x1.
+11:00:55: Mesh: Loading reta002.mesh.
+11:01:14: *-*-* OGRE Shutdown
+11:01:14: Unregistering ResourceManager for type Font
+11:01:14: Unregistering ResourceManager for type Skeleton
+11:01:14: Unregistering ResourceManager for type Mesh
+11:01:14: Unregistering ResourceManager for type HighLevelGpuProgram
+11:01:14: Unloading library .\Plugin_CgProgramManager
+11:01:14: Unloading library .\Plugin_OctreeSceneManager
+11:01:14: Unregistering ResourceManager for type BspLevel
+11:01:14: Unloading library .\Plugin_BSPSceneManager
+11:01:14: Unloading library .\Plugin_ParticleFX
+11:01:14: *** Stopping Win32GL Subsystem ***
+11:01:14: Unloading library .\RenderSystem_GL
+11:01:14: Render Target 'OGRE Render Window' Average FPS: 257.308 Best FPS: 323.031 Worst FPS: 232.535
+11:01:14: D3D9 : Shutting down cleanly.
+11:01:14: Unregistering ResourceManager for type Texture
+11:01:14: Unregistering ResourceManager for type GpuProgram
+11:01:14: D3D9 : Direct3D9 Rendering SubSystem destroyed.
+11:01:14: Unloading library .\RenderSystem_Direct3D9
+11:01:14: *-*-* Direct3D Subsystem shutting down cleanly.
+11:01:14: Direct3D7 Rendering Subsystem destroyed.
+11:01:14: Unloading library .\RenderSystem_Direct3D7
+11:01:14: Unregistering ResourceManager for type Material
+11:01:14: Unloading library OgrePlatform.dll
