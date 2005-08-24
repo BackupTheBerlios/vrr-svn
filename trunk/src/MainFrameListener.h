@@ -61,7 +61,7 @@ public:
 		mUseBufferedInputMouse = useBufferedInputMouse;
 		mInputTypeSwitchingOn = mUseBufferedInputKeys || mUseBufferedInputMouse;
         mRotateSpeed = 36;
-        mMoveSpeed = 100;
+        mMoveSpeed = 300;
 
 		if (mInputTypeSwitchingOn)
 		{
@@ -130,17 +130,17 @@ public:
             mTranslateVector.z = mMoveScale;
         }
 
-        /*if (mInputDevice->isKeyDown(KC_PGUP))
+		if (mInputDevice->isKeyDown(KC_HOME))
         {
             // Move camera up
             mTranslateVector.y = mMoveScale;
         }
 
-        if (mInputDevice->isKeyDown(KC_PGDOWN))
+		if (mInputDevice->isKeyDown(KC_END))
         {
             // Move camera down
             mTranslateVector.y = -mMoveScale;
-        }*/
+        }
 
         /*if (mInputDevice->isKeyDown(KC_RIGHT))
         {
