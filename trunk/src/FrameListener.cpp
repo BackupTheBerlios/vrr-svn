@@ -83,5 +83,16 @@ bool FrameListenerEd::frameStarted(const FrameEvent& evt)
 		mTimeUntilNextToggle = 0.1;
 	}
 
+	if(mInputDevice->isKeyDown(Ogre::KC_J)  && mTimeUntilNextToggle <= 0) {			
+		if(roads.size() > 0)
+			roads[selected].showChoice(false);
+
+		roads.push_back( Road(*sceneManager, "sobe001.mesh") );
+		selected = roads.size() - 1;
+		roads[selected].showChoice(true);
+		mTimeUntilNextToggle = 0.1;
+	}
+
+
 	return true;
 }
