@@ -2,6 +2,7 @@
 
 #include "Ogre.h"
 #include "MainFrameListener.h"
+#include "OgreConfigFile.h"
 
 using namespace Ogre;
 
@@ -98,7 +99,7 @@ protected:
     virtual void chooseSceneManager(void)
     {
         // Get the SceneManager, in this case a generic one
-        mSceneMgr = mRoot->getSceneManager(ST_GENERIC);
+		mSceneMgr = mRoot->createSceneManager(Ogre::ST_GENERIC);
     }
     virtual void createCamera(void)
     {

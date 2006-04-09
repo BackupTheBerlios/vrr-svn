@@ -37,7 +37,7 @@
 				AdditionalDependencies="OgreMain.lib ode.lib"
 				OutputFile="../bin/VintageEd.exe"
 				LinkIncremental="2"
-				AdditionalLibraryDirectories="D:\PROG\ogrenew\OgreMain\lib\Release"
+				AdditionalLibraryDirectories=""
 				GenerateDebugInformation="TRUE"
 				ProgramDatabaseFile="$(OutDir)/VintageEd.pdb"
 				SubSystem="2"
